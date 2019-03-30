@@ -21,7 +21,7 @@ from modules.lyrics import *
 
 
 def text_message(msg_recieved, sender_id, msg):
-    print sender_id, msg_recieved
+    print(sender_id, msg_recieved)
     username = msg['from'].get('username')
     msg_list = msg_recieved.split(' ')
     telegram_url = "http://www.telegram.me/"
